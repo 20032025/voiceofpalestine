@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&family=Limelight&display=swap');
+
+/* إعدادات عامة */
+* {
+    margin: 0;
+    padding:8px;
+  box-sizing:border-box; 
+}
+
+body {
+  
+  font-family: "Lateef",serif;
+  font-weight: 700;
+  background-color: #111;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+
+ul {
+    list-style:none;
+    font-size: 32px;
+}
+
+a {
+    text-decoration:none;
+    font-size: 32px;
+}
+
+
+#navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items:centre;
+    
+}
+
+
+#navbar img {
+    width: 100px;
+    margin-left:100px;
+}
+
+
+#navbar ul {
+    
+    display :flex;
+    margin-right:50px;
+}
+
+
+#navbar ul li a {
+    
+    padding:15px 20px;
+    color:#ccc;
+}
+
+#navbar ul li a:hover {
+  border-bottom:2px solid #ccc;
+} 
+
+
+/* 🟩 الصفحة الرئيسية */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 60px;
+  flex-wrap: wrap;
+  direction: rtl;
+  
+  flex-direction:row-reverse;
+}
+
+.text-box {
+  flex: 1;
+  max-width: 500px;
+  margin-left: 40px;
+}
+
+.text-box h1 {
+  font-size: 32px;
+  color: #fff;
+  border-bottom: 2px solid #e60000;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.text-box p {
+  font-size: 30px;
+  line-height: 1.8;
+  color: #ddd;
+}
+
+.image-box {
+  flex: 1;
+  max-width: 400px;
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+
+/* 🟦 أقسام سكشن */
+.page-section {
+  padding: 20px 20px;
+  font-size: 24px;
+  color: #999;
+  border-top: 1px solid #333;
+  align-items: center;
+  text-align: center;
+}
+
+.page {
+    text-align:right;
+    font-size: 35px;
+  line-height: 1.8;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 60px;
+  flex-wrap: wrap;
+  direction: rtl;
+  text-align:right;
+  flex-direction:row-reverse;
+ 
+} 
+
+
+#sections .page-section {
+    height:80vh;
+    display :flex;
+    justify-content:centre;
+}
+
+#sections   {
+    
+   display: flex;
+   justify-content:centre;
+   align-items:centre;
+   text-align:centre;
+}
+
+#sections   img  {
+    width:300px;
+    text-align:centre;
+}
+
+.page-section h1 {
+  font-size: 32px;
+  color: #fff;
+  border-bottom: 2px solid #e60000;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  align-items: center;
+} 
+    
+    
+    .caption h1 {
+  font-size: 18px;
+  margin-top: 12px;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid #3b3b3b;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  color: #333;
+  direction: rtl;
+ 
+}
+
+
+
+
+
+
+.social-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #F1C40F;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.social-button a:hover {
+  background-color: #F1C40F;
+} 
+
+.copyright {
+  
+  text-align: center;
+  padding: 15px 0;
+  background-color: #222;
+  color: #fff;
+  font-size: 30px;
+}

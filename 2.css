@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&family=Limelight&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* غيّره لو عندك لون مخصص للخلفية */
+   font-family: "Lateef",serif;
+  direction: rtl;
+  font-weight: 800;
+  font-size:30px;
+}
+
+.shuhada-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh; /* تأخذ كل ارتفاع الشاشة */
+  padding: 20px;
+  background-color: #111; /* نفس لون الصفحة الرئيسية */
+}
+
+.shuhada-quote {
+  border: 2px solid #8b0000;
+  padding: 25px 30px;
+  border-radius: 15px;
+  background-color: white;
+  font-size: 24px;
+  color: #333;
+  max-width: 800px;
+  text-align: center;
+  line-height: 1.8;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
