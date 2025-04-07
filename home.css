@@ -113,7 +113,14 @@ a {
   border-top: 1px solid #333;
   align-items: center;
   text-align: center;
+    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
 }
+
 
 .page {
     text-align:right;
