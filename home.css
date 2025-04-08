@@ -126,7 +126,6 @@ a {
 
 
 .page {
-    text-align:right;
     font-size: 20px;
   line-height: 1.8;
   color: #ddd;
@@ -136,7 +135,7 @@ a {
   padding: 80px 60px;
   flex-wrap: wrap;
   direction: rtl;
-  text-align:right;
+  text-align:centre;
   flex-direction:row-reverse;
 
 
