@@ -228,6 +228,7 @@ margin-bottom: 25px;
   border-radius: 25px;
   font-family: 'Arial', sans-serif;
   transition: background-color 0.3s ease;
+    text-align:left;
 }
 
 .button a:hover {
