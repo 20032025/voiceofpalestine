@@ -211,9 +211,7 @@ margin-bottom: 25px;
   direction: rtl;
   text-align:right;
   flex-direction:row-reverse;
-
-
-    margin:10px 0;
+ margin:10px 0;
     }
 
 
@@ -229,6 +227,7 @@ margin-bottom: 25px;
   font-family: 'Arial', sans-serif;
   transition: background-color 0.3s ease;
     text-align:left;
+    margin-top :10px;
 }
 
 .button a:hover {
