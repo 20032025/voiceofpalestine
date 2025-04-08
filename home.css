@@ -199,7 +199,22 @@ margin-bottom: 25px;
 }
 
 
+.page {
+    font-size: 40px;
+  line-height: 1.8;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 60px;
+  flex-wrap: wrap;
+  direction: rtl;
+  text-align:right;
+  flex-direction:row-reverse;
 
+
+    margin:10px 0;
+    
 
 
 
@@ -227,6 +242,7 @@ margin-bottom: 25px;
   color: #fff;
   font-size: 30px;
 }
+
 
 
 
