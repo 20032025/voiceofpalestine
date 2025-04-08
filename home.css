@@ -142,6 +142,14 @@ a {
  
 } 
 
+.page-section .link {
+    font-size: 32px;
+  color: #fff;
+  border-bottom: 2px solid #e60000;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
 
 #sections .page-section {
     height:80vh;
