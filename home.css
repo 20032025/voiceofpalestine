@@ -159,7 +159,7 @@ a {
 }
 
 .page-section h1 {
-  font-size: 32px;
+  font-size: 30px;
   color: #fff;
   border-bottom: 2px solid #e60000;
   display: inline-block;
@@ -168,9 +168,7 @@ a {
   align-items: center;
 
 
-     display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    
 } 
     
     
