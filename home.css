@@ -216,20 +216,18 @@ margin-bottom: 25px;
 
 
 
-.button a {
+.button  {
   display: inline-block;
-  padding: 10px 0px;
-  background-color: #F1C40F;
+  padding: 10px 20px;
+  background-color: #e1306c;
   color: white;
   text-decoration: none;
+  border-radius: 5px;
   font-weight: bold;
-  border-radius: 25px;
-  font-family: 'Arial', sans-serif;
-  transition: background-color 0.3s ease;
-    text-align:centre;
-    margin-top:10px;
-    display: flex;
+  font-family: Arial, sans-serif;
 }
+
+
 
 .button a:hover {
   background-color: #F1C40F;
