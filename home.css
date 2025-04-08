@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&family=Limelight&display=swap');
+@media (min-widht: 768px) {
+    .page-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: centre; }
 
+    .page { margin: 20px;}
 /* إعدادات عامة */
 * {
     margin: 0;
@@ -118,6 +124,8 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  flex-direction:column;
+    
 
 }
 
@@ -135,6 +143,10 @@ a {
   direction: rtl;
   text-align:right;
   flex-direction:row-reverse;
+
+
+    margin:10px 0;
+    
  
 } 
 
