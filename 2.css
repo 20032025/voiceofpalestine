@@ -19,8 +19,6 @@ body {
     margin-bottom: 10px;  /* إضافة مسافة بين الروابط (اختياري) */
     color: blue;   /* تغيير اللون إلى الأزرق مثلاً */
     text-decoration: none;  /* إزالة الخط السفلي من الروابط */
-   display: inline-block;
-  padding: 10px 20px;
   color: white;
   text-decoration: none;
   border-radius: 5px;
