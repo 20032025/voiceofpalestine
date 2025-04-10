@@ -2,11 +2,13 @@
 
 
 body {
-    background-color: #f0f0f0;  /* ضع هنا اللون الذي تريد استخدامه */
-    font-family: Arial, sans-serif; /* اختيار نوع الخط */
-    color: #333;  /* اختيار اللون الافتراضي للنص */
+  
+  font-family: "Lateef",serif;
+  font-weight: 700;
+  background-color: #111;
+  color: #fff;
+  scroll-behavior: smooth;
 }
-
 
 .links-container {
     display: block;  /* هذا يجعل العناصر داخلها تظهر تحت بعضها البعض */
