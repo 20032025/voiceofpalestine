@@ -31,3 +31,19 @@ body {
   line-height: 1.8;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+
+.pageb {
+    font-size: 40px;
+  line-height: 1.8;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 60px;
+  flex-wrap: wrap;
+  direction: rtl;
+  text-align:right;
+  flex-direction:row-reverse;
+ margin:8px 0;
+    }
