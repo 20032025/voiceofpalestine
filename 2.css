@@ -1,23 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&family=Limelight&display=swap');
 
+
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4; /* غيّره لو عندك لون مخصص للخلفية */
-   font-family: "Lateef",serif;
-  direction: rtl;
-  font-weight: 800;
-  font-size:30px;
+    background-color: #f0f0f0;  /* ضع هنا اللون الذي تريد استخدامه */
+    font-family: Arial, sans-serif; /* اختيار نوع الخط */
+    color: #333;  /* اختيار اللون الافتراضي للنص */
 }
 
 
-.links-container {
-    display: block;  /* هذا يجعل العناصر داخلها تظهر تحت بعضها البعض */
-}
 
-.link {
-    display: block; /* يجعل كل رابط يظهر في سطر منفصل */
-    margin-bottom: 10px;  /* إضافة مسافة بين الروابط (اختياري) */
-    color: blue;   /* تغيير اللون إلى الأزرق مثلاً */
-    text-decoration: none;  /* إزالة الخط السفلي من الروابط */
-}
