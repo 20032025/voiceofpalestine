@@ -10,41 +10,14 @@ body {
   font-size:30px;
 }
 
-.shuhada-container {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  height: 100vh; /* تأخذ كل ارتفاع الشاشة */
-  padding: 20px;
-  background-color: #111; /* نفس لون الصفحة الرئيسية */
+
+.links-container {
+    display: block;  /* هذا يجعل العناصر داخلها تظهر تحت بعضها البعض */
 }
 
-.shuhada-quote {
-  margin: 20px;
-  display: block;
-  border: 2px solid #8b0000;
-  padding: 25px 30px;
-  border-radius: 15px;
-  background-color: white;
-  font-size: 24px;
-  color: #333;
-  max-width: 800px;
-  text-align: center;
-  line-height: 1.8;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+.link {
+    display: block; /* يجعل كل رابط يظهر في سطر منفصل */
+    margin-bottom: 10px;  /* إضافة مسافة بين الروابط (اختياري) */
+    color: blue;   /* تغيير اللون إلى الأزرق مثلاً */
+    text-decoration: none;  /* إزالة الخط السفلي من الروابط */
 }
-
-.instagram-link  {
-  display: block;
-  padding: 10px 20px;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #3b3b3b;
-}
-
