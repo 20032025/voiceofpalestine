@@ -12,10 +12,11 @@ body {
 
 .links-container {
     display: block;  /* هذا يجعل العناصر داخلها تظهر تحت بعضها البعض */
+    margin-top: 100px;
+
 }
 
 .link {
-  margin-top: 100px;
     display: block; /* يجعل كل رابط يظهر في سطر منفصل */
     margin-bottom: 20px;  /* إضافة مسافة بين الروابط (اختياري) */
     color: blue;   /* تغيير اللون إلى الأزرق مثلاً */
