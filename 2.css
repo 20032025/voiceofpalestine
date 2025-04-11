@@ -16,7 +16,7 @@ body {
 
 .link {
     display: block; /* يجعل كل رابط يظهر في سطر منفصل */
-    margin-bottom: 10px;  /* إضافة مسافة بين الروابط (اختياري) */
+    margin-bottom: 20px;  /* إضافة مسافة بين الروابط (اختياري) */
     color: blue;   /* تغيير اللون إلى الأزرق مثلاً */
     text-decoration: none;  /* إزالة الخط السفلي من الروابط */
   color: white;
