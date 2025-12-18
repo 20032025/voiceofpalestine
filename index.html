@@ -313,6 +313,20 @@
   document.addEventListener('contextmenu', event => event.preventDefault());
   document.addEventListener('copy', event => event.preventDefault());
 </script>
+
+    <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // منع تحديد النص
+    document.body.onselectstart = function () { return false; };
+
+    // منع السحب
+    document.body.ondragstart = function () { return false; };
+
+    // منع كليك يمين
+    document.body.oncontextmenu = function () { return false; };
+  });
+</script>
+
     
 </body>
 </html>
